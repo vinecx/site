@@ -1,0 +1,104 @@
+@font-face {
+    src: url("../fonts/AVERTA/AvertaDemoPE-Regular.ttf");
+    font-family: Averta;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+a {
+    text-decoration: none;   
+}
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration-color: none;
+}
+li {
+    text-decoration: none;
+}
+body {
+    background-color: #050519;
+}
+a {
+    color: white;
+    font-family: Averta;
+    font-style: normal  ;
+}
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+#conteudo {
+    margin-top: 16vh;
+}
+.app-1 {
+    margin-top: 1rem;
+    font-size: 3vh;
+}
+.app {
+    font-size: 6vh;
+}
+.app0 {
+    font-size: 3vh;
+}
+section {
+    height: 100vh;
+}
+.svg0 {
+    height: 116vh;
+    width: 28vh;
+}
+#svg1 {
+    height: 49vh;
+    position: absolute;
+    top: 9%;
+    left: 12vh;
+    width: 49vh;
+    z-index: 0;
+}
+#foto_1 {
+    height: 49vh;
+    z-index: 1;
+}
+.card1 {
+    height: 40vh;
+    width: 100% !important;
+    background-color: white;
+    border-radius: 11%;
+    text-align: center;
+    
+}
+#cards-container {
+    margin-top: 35vh; 
+}
+@media (max-width: 1025px){
+#foto {
+    display: none;
+}
+.btn {
+    display: none;
+}
+.ml-5 {
+    margin-left: 0.5rem !important;
+}
+.conteudo {
+    margin-top: 50%;
+}
+#cards-container {
+    align-content: middle;
+}
+.card1.mb-5 {
+    margin-right: 0rem !important;
+}
+.cards-titulo {
+    text-align: center;
+}
